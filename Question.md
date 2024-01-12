@@ -37,7 +37,7 @@ Variabel independen (X) adalah variabel yang dapat mempengaruhi atau menjelaskan
 
 > Jadi, variabel independen (X) adalah Ukuran, sedangkan variabel dependen (Y) adalah Harga Sewa.
 
-### 2. Kemudian tambah kolom pada tabel hasil perhitungan dari $X², Y², XY$ dan total dari masing-masingnya.
+### 2. Kemudian tambah kolom pada tabel hasil perhitungan dari $X², Y², XY$dan total dari masing-masingnya.
 
 | No    | Ukuran | Lantai | Tarif Internet | Harga Sewa | X²      | Y²      | XY      |
 | ----- | ------ | ------ | -------------- | ---------- | ------- | ------- | ------- |
@@ -51,21 +51,39 @@ Variabel independen (X) adalah variabel yang dapat mempengaruhi atau menjelaskan
 | 8     | 800    | 12     | 50             | 600        | 640000  | 360000  | 480000  |
 | 9     | 920    | 14     | 8              | 570        | 846400  | 324900  | 524400  |
 | 10    | 1000   | 9      | 24             | 620        | 1000000 | 384400  | 620000  |
-| Total | -      | -      | -              | -          | 5357725 | 2176489 | 3404610 |
+| Total | 7165   | -      | -              | 4557       | 5357725 | 2176489 | 3404610 |
 
-Keterangan:
+- Menghitung Total dari Masing-Masing Kolom : 
 
-- $X²$ merupakan kolom yang berisi hasil dari kuadrat setiap nilai pada kolom Ukuran.
-- $Y²$ merupakan kolom yang berisi hasil dari kuadrat setiap nilai pada kolom Harga Sewa.
-- $(XY)$ merupakan kolom yang berisi hasil perkalian setiap nilai pada kolom Ukuran dengan nilai pada kolom Harga Sewa.
-- Total $X^2$ $(Y^2)$, dan $(XY)$ adalah jumlah dari masing-masing kolom.
-  
+  $\text{Total}(\sum X^2) = 5357725$
+
+  $\text{Total}(\sum Y^2) = 2176489$
+
+  $\text{Total}(\sum XY) = 3404610$
+
+  $\text{Total}(\sum X) = 7165$
+
+  $\text{Total}(\sum Y) = 4557$
+
+  $n = 10$
+
+- Keterangan:
+
+  - $X²$ merupakan kolom yang berisi hasil dari kuadrat setiap nilai pada kolom Ukuran.
+
+  - $Y²$ merupakan kolom yang berisi hasil dari kuadrat setiap nilai pada kolom Harga Sewa.
+
+  - $XY$ merupakan kolom yang berisi hasil perkalian setiap nilai pada kolom Ukuran dengan nilai pada kolom Harga Sewa.
+
+  - Total $X^2$$(Y^2)$, dan$(XY)$adalah jumlah dari masing-masing kolom.
+    
+
 
 ### 3. Gunakan model regresi linear sebagai berikut $Y = a + bX.$
 
 Dalam regresi linear, \(Y\) adalah variabel dependen (Harga Sewa), \(X\) adalah variabel independen (Ukuran), dan \(a\) serta \(b\) adalah parameter model yang perlu diestimasi. Model regresi linear dapat diwujudkan dalam bentuk persamaan:
 
-$ Y = a + bX $
+$Y = a + bX$
 
 di mana:
 
@@ -76,59 +94,41 @@ di mana:
 ### 4. Lalu hitunglah nilai a menggunakan rumus  : (mencari nilai konstanta a)
 - Rumus a
 
-  $a = \frac{(\sum y)(\sum x^2) - (\sum x)(\sum xy)}{n(\sum x^2) - (\sum x)}$
-  
-  
+   $a = \frac{(\sum y)(\sum x^2) - (\sum x)(\sum xy)}{n(\sum x^2) - (\sum x)}$
 
 
 - Penyelesaian : 
 
-  
+  $a = \frac{(\sum Y)(\sum X^2) - (\sum X)(\sum XY)}{n(\sum X^2) - (\sum X)^2}$
 
-  $ \text{Total}(\sum X^2) = 5715729 $
+  $a = \frac{(4557)(5357725) - (7165)(3404610)}{10(5357725) - (7165)^2}$
 
-  $ \text{Total}(\sum Y^2) = 782 $
+  $a = \frac{24415152825 - 24394030650}{53577250 - 51337225}$
 
-  $ \text{Total}(\sum XY) = 57260 $
+  $a = \frac{21122175}{2240025}$
 
-  $ \text{Total}(\sum X) = 7300 $
-
-  $ \text{Total}(\sum Y) = 4157 $
-  
-  $ n = 10 $
+  $a \approx 9.42$
 
 
 ### 5. Cari pula nilai b menggunakan rumus : (mencari nilai koefisien b)
 
 - Rumus b
 
-  $b = \frac{n(\sum xy) - (\sum x)(\sum y)}{n(\sum x^2) - (\sum x)^2}$
-
+   $b = \frac{n(\sum xy) - (\sum x)(\sum y)}{n(\sum x^2) - (\sum x)^2}$
 
 
 - Penyelesaian : 
-  
 
-  $ a = \frac{(\sum Y)(\sum X^2) - (\sum X)(\sum XY)}{n(\sum X^2) - (\sum X)^2} $
+  $b = \frac{n(\sum XY) - (\sum X)(\sum Y)}{n(\sum X^2) - (\sum X)^2}$
 
-  $ a = \frac{(4157)(5715729) - (7300)(57260)}{10(5715729) - (7300)^2} $
+  $b = \frac{10(3404610) - (7165)(4557)}{10(5357725) - (7165)^2}$
 
-  $ a = \frac{23620489353 - 530588000}{57157290 - 53290000} $
+  $b = \frac{34046100 - 32650905}{53577250 - 51337225}$
 
-  $ a \approx \frac{23189801353}{3877280} $
+  $b = \frac{1395195}{2240025}$
 
-  $ a \approx 5985.68 $
+  $b \approx 0.62$
 
-  $ b = \frac{n(\sum XY) - (\sum X)(\sum Y)}{n(\sum X^2) - (\sum X)^2} $
-
-  $ b = \frac{10(57260) - (7300)(4157)}{10(5715729) - (7300)^2} $
-
-  $ b = \frac{572600 - 30381300}{57157290 - 53290000} $
-
-  $ b = \frac{-29818700}{3877280} $
-  
-  $ b \approx -7.69 $
-  
 
 ### 6. Buat **pseudocode** untuk penyelesaian kasus diatas menggunakan sintaks Python
 
