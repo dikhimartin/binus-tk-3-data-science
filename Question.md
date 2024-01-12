@@ -6,7 +6,6 @@
 | --------- | ---- | ----------------------------------- |
 | Sub topik | :    | Regresi Linear                      |
 
-[TOC]
 
 
 Tugas kelompok yang ketiga adalah berdasarkan data tabel, bantulah pemilik Gedung APN Tower menggunakan metode regresi linear untuk membuat prediksi harga sewa perbulan jika terdapat penambahan data baru ukuran ruang kantor sebesar 730 m2. 
