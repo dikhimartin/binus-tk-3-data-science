@@ -42,7 +42,7 @@ Variabel independen (X) adalah variabel yang dapat mempengaruhi atau menjelaskan
 
 Berikut adalah tabel hasil perhitungan kolom tambahan \(X^2\), \(Y^2\), \(XY\), dan totalnya:
 
-$
+\[
 \begin{array}{|c|c|c|c|c|c|c|}
 \hline
 \text{No} & \text{Ukuran} & \text{Lantai} & \text{Tarif Internet} & \text{Harga Sewa} & X^2 & Y^2 & XY \\
@@ -61,7 +61,7 @@ $
 \text{Total} & - & - & - & - & 5719729 & 781 & 60480 \\
 \hline
 \end{array}
-$
+\]
 
 Keterangan:
 - \(X^2\) merupakan kolom yang berisi hasil dari kuadrat setiap nilai pada kolom Ukuran.
