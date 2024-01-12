@@ -1,9 +1,14 @@
 Tugas Kelompok 3 - Regresi Linear 
 ==================
 
-Tugas kelompok ini menekankan penerapan Regresi Linear dalam konteks Data Science. Kelompok diminta untuk membantu pemilik Gedung APN Tower dalam membuat prediksi harga sewa perbulan berdasarkan ukuran ruang kantor. Data yang diberikan telah diolah dengan mengikuti langkah-langkah regresi linear, dan tugas selanjutnya adalah memprediksi harga sewa jika terdapat penambahan data baru dengan ukuran ruang kantor sebesar 730 m2. Langkah-langkah tersebut melibatkan penentuan variabel independen dan dependen, perhitungan nilai a dan b, serta penggunaan model regresi linear.
+Tugas kelompok ini menekankan penerapan Regresi Linear dalam konteks Data Science. Kelompok diminta untuk membantu pemilik Gedung APN Tower dalam membuat prediksi harga sewa perbulan berdasarkan ukuran ruang kantor. 
+
+Data yang diberikan telah diolah dengan mengikuti langkah-langkah regresi linear, dan tugas selanjutnya adalah memprediksi harga sewa jika terdapat penambahan data baru dengan ukuran ruang kantor sebesar 730 m2. 
+
+Langkah-langkah tersebut melibatkan penentuan variabel independen dan dependen, perhitungan nilai a dan b, serta penggunaan model regresi linear.
 
 Berikut adalah hasil laporan dari investigasi kami :
+
 https://github.com/dikhimartin/binus-tk-3-data-science/blob/master/report.md
 
 
