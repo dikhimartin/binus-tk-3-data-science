@@ -6,6 +6,8 @@
 | --------- | ---- | ----------------------------------- |
 | Sub topik | :    | Regresi Linear                      |
 
+[TOC]
+
 
 Tugas kelompok yang ketiga adalah berdasarkan data tabel, bantulah pemilik Gedung APN Tower menggunakan metode regresi linear untuk membuat prediksi harga sewa perbulan jika terdapat penambahan data baru ukuran ruang kantor sebesar 730 m2. 
 
@@ -24,7 +26,7 @@ Tugas kelompok yang ketiga adalah berdasarkan data tabel, bantulah pemilik Gedun
 
 Untuk memudahkan kelompok dalam melakukan prediksi harga, ikuti langkah-langkah sebagai berikut:
 
-### Berdasarkan data tabel, tentukan variabel independen dan variabel dependen.
+### 1. Berdasarkan data tabel, tentukan variabel independen dan variabel dependen.
 
 Jawab : 
 Variabel independen (X) adalah variabel yang dapat mempengaruhi atau menjelaskan variabel dependen. Dalam konteks ini, kita ingin menggunakan regresi linear untuk memprediksi harga sewa (variabel dependen) berdasarkan beberapa fitur atau atribut tertentu. Oleh karena itu:
@@ -36,7 +38,7 @@ Variabel independen (X) adalah variabel yang dapat mempengaruhi atau menjelaskan
 
 > Jadi, variabel independen (X) adalah Ukuran, sedangkan variabel dependen (Y) adalah Harga Sewa.
 
-### Kemudian tambah kolom pada tabel hasil perhitungan dari $X², Y², XY$ dan total dari masing-masingnya.
+### 2. Kemudian tambah kolom pada tabel hasil perhitungan dari $X², Y², XY$ dan total dari masing-masingnya.
 
 | No    | Ukuran | Lantai | Tarif Internet | Harga Sewa | X²      | Y²      | XY      |
 | ----- | ------ | ------ | -------------- | ---------- | ------- | ------- | ------- |
@@ -60,7 +62,7 @@ Keterangan:
 - Total $X^2$ $(Y^2)$, dan $(XY)$ adalah jumlah dari masing-masing kolom.
   
 
-### Gunakan model regresi linear sebagai berikut $Y = a + bX.$
+### 3. Gunakan model regresi linear sebagai berikut $Y = a + bX.$
 
 Dalam regresi linear, \(Y\) adalah variabel dependen (Harga Sewa), \(X\) adalah variabel independen (Ukuran), dan \(a\) serta \(b\) adalah parameter model yang perlu diestimasi. Model regresi linear dapat diwujudkan dalam bentuk persamaan:
 
@@ -72,7 +74,7 @@ di mana:
 - \( X \) adalah ukuran ruang kantor, dan
 - \( a \) dan \( b \) adalah parameter yang perlu diestimasi.
 
-### Lalu hitunglah nilai a menggunakan rumus  : (mencari nilai konstanta a)
+### 4. Lalu hitunglah nilai a menggunakan rumus  : (mencari nilai konstanta a)
 - Rumus a
 
   $a = \frac{(\sum y)(\sum x^2) - (\sum x)(\sum xy)}{n(\sum x^2) - (\sum x)}$
@@ -97,7 +99,7 @@ di mana:
   $ n = 10 $
 
 
-### Cari pula nilai b menggunakan rumus : (mencari nilai koefisien b)
+### 5. Cari pula nilai b menggunakan rumus : (mencari nilai koefisien b)
 
 - Rumus b
 
@@ -129,4 +131,7 @@ di mana:
   $ b \approx -7.69 $
   
 
-### Buat **pseudocode** untuk penyelesaian kasus diatas menggunakan sintaks Python
+### 6. Buat **pseudocode** untuk penyelesaian kasus diatas menggunakan sintaks Python
+
+Proses pseudocode terkait analisis regresi linear untuk prediksi harga sewa, dapat dilihat dokumentasi notebook nya di link sebagai berikut : 
+https://github.com/dikhimartin/binus-tk-3-data-science/blob/master/linear-regresion.ipynb
