@@ -25,6 +25,17 @@ Tugas kelompok yang ketiga adalah berdasarkan data tabel, bantulah pemilik Gedun
 Untuk memudahkan kelompok dalam melakukan prediksi harga, ikuti langkah-langkah sebagai berikut:
 
 1. Berdasarkan data tabel, tentukan variabel independen dan variabel dependen.
+   Jawab : 
+   Variabel independen (X) adalah variabel yang dapat mempengaruhi atau menjelaskan variabel dependen. Dalam konteks ini, kita ingin menggunakan regresi linear untuk memprediksi harga sewa (variabel dependen) berdasarkan beberapa fitur atau atribut tertentu. Oleh karena itu:
+
+   - Variabel independen (X):
+     - Ukuran (m2)
+     - Lantai
+     - Tarif Internet
+   - Variabel dependen (Y):
+     - Harga Sewa
+
+   > Jadi, variabel independen (X) adalah Ukuran, Lantai, dan Tarif Internet, sedangkan variabel dependen (Y) adalah Harga Sewa.
 
 2. Kemudian tambah kolom pada tabel hasil perhitungan dari $X², Y², XY$ dan total dari masing-masingnya.
 
