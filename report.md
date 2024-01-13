@@ -28,30 +28,30 @@ Untuk memudahkan kelompok dalam melakukan prediksi harga, ikuti langkah-langkah 
 ### 1. Berdasarkan data tabel, tentukan variabel independen dan variabel dependen.
 
 Jawab : 
-Variabel independen (X) adalah variabel yang dapat mempengaruhi atau menjelaskan variabel dependen. Dalam konteks ini, kita ingin menggunakan regresi linear untuk memprediksi harga sewa (variabel dependen) berdasarkan beberapa fitur atau atribut tertentu. Oleh karena itu:
+Variabel independen ($X$) adalah variabel yang dapat mempengaruhi atau menjelaskan variabel dependen. Dalam konteks ini, kita ingin menggunakan regresi linear untuk memprediksi harga sewa (variabel dependen) berdasarkan beberapa fitur atau atribut tertentu. Oleh karena itu:
 
-- Variabel independen (X):
+- Variabel independen ($X$):
   - Ukuran ruang kantor  (m²)
-- Variabel dependen (Y):
+- Variabel dependen ($Y$):
   - Harga sewa perbulan
 
-> Jadi, variabel independen (X) adalah Ukuran, sedangkan variabel dependen (Y) adalah Harga Sewa.
+> Jadi, variabel independen ($X$) adalah Ukuran, sedangkan variabel dependen ($Y$) adalah Harga Sewa.
 
 ### 2. Kemudian tambah kolom pada tabel hasil perhitungan dari $X², Y², XY$dan total dari masing-masingnya.
 
-| No    | Ukuran | Lantai | Tarif Internet | Harga Sewa | X²      | Y²      | XY      |
-| ----- | ------ | ------ | -------------- | ---------- | ------- | ------- | ------- |
-| 1     | 510    | 4      | 8              | 320        | 260100  | 102400  | 163200  |
-| 2     | 550    | 7      | 50             | 385        | 302500  | 148225  | 211750  |
-| 3     | 620    | 9      | 7              | 400        | 384400  | 160000  | 248000  |
-| 4     | 630    | 5      | 24             | 392        | 396900  | 153664  | 246960  |
-| 5     | 655    | 8      | 100            | 380        | 429025  | 144400  | 248900  |
-| 6     | 700    | 4      | 8              | 410        | 490000  | 168100  | 287000  |
-| 7     | 780    | 10     | 7              | 480        | 608400  | 230400  | 374400  |
-| 8     | 800    | 12     | 50             | 600        | 640000  | 360000  | 480000  |
-| 9     | 920    | 14     | 8              | 570        | 846400  | 324900  | 524400  |
-| 10    | 1000   | 9      | 24             | 620        | 1000000 | 384400  | 620000  |
-| Total | 7165   | -      | -              | 4557       | 5357725 | 2176489 | 3404610 |
+| No    | Ukuran ($X$) | Lantai | Tarif Internet | Harga Sewa ($Y$) | X²      | Y²      | XY      |
+| ----- | ------------ | ------ | -------------- | ---------------- | ------- | ------- | ------- |
+| 1     | 510          | 4      | 8              | 320              | 260100  | 102400  | 163200  |
+| 2     | 550          | 7      | 50             | 385              | 302500  | 148225  | 211750  |
+| 3     | 620          | 9      | 7              | 400              | 384400  | 160000  | 248000  |
+| 4     | 630          | 5      | 24             | 392              | 396900  | 153664  | 246960  |
+| 5     | 655          | 8      | 100            | 380              | 429025  | 144400  | 248900  |
+| 6     | 700          | 4      | 8              | 410              | 490000  | 168100  | 287000  |
+| 7     | 780          | 10     | 7              | 480              | 608400  | 230400  | 374400  |
+| 8     | 800          | 12     | 50             | 600              | 640000  | 360000  | 480000  |
+| 9     | 920          | 14     | 8              | 570              | 846400  | 324900  | 524400  |
+| 10    | 1000         | 9      | 24             | 620              | 1000000 | 384400  | 620000  |
+| Total | 7165         | -      | -              | 4557             | 5357725 | 2176489 | 3404610 |
 
 - Menghitung Total dari Masing-Masing Kolom : 
 
@@ -129,8 +129,28 @@ di mana:
 
   $b \approx 0.62$
 
-
 ### 6. Buat **pseudocode** untuk penyelesaian kasus diatas menggunakan sintaks Python
 
 Proses pseudocode terkait analisis regresi linear untuk prediksi harga sewa, dapat dilihat dokumentasi notebook nya di link sebagai berikut : 
-https://github.com/dikhimartin/binus-tk-3-data-science/blob/master/linear-regresion.ipynb
+https://github.com/dikhimartin/binus-tk-3-data-science/blob/master/linear-regresion.ipynb , atau bisa di lihat bersamaan dengan dokumen yang kami upload di dalam tugas ini (nama file : `linear-regresion.ipynb`) 
+
+
+
+## Referensi 
+
+Lecture Notes Data Science Week 8 - Simple Linear Regression
+
+Python, R. (2023, June 26). *Linear regression in Python*. https://realpython.com/linear-regression-in-python/
+
+Rebekz. (n.d.). *GitHub - rebekz/datascience_course: A series of complement resource for data science course*. GitHub. https://github.com/rebekz/datascience_course
+
+Bevans, R. (2023, June 22). *Simple linear regression | An easy introduction & examples*. Scribbr. https://www.scribbr.com/statistics/simple-linear-regression/
+
+*Data Science Linear regression*. (n.d.). https://www.w3schools.com/datascience/ds_linear_regression.asp
+
+
+
+
+
+
+
